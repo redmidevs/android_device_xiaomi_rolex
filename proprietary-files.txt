@@ -1960,7 +1960,7 @@ etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
 framework/cneapiclient.jar|927aaee2dccdc7664b54cb3ef9d27a05bf7ae29c
 framework/com.quicinc.cne.api-V1.0-java.jar|6fb1bf2ea642ce0f0c8c4716639cab7a9810cc3e
 framework/com.quicinc.cne.jar|87ab18b5128d36f6ad5e747b3d95a9081c9fd5a9
--priv-app/CNEService/CNEService.apk|0a8dd7de727cac5dbeb54f0f1f095839b673e863
+#-priv-app/CNEService/CNEService.apk|0a8dd7de727cac5dbeb54f0f1f095839b673e863
 vendor/bin/cnd|93e4c752e71f05018a9f194de09dd394382ffd25
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|f2c06b51ee8894dc8abd50488f2b21c70f4c787b
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|af693cbaed9504d298bf6e99e126ec2790a3b811
