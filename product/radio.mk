@@ -65,14 +65,6 @@ PRODUCT_PACKAGES += \
     rcs_service_api \
     rcs_service_api.xml
 
-# Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext \
-    ims-ext-common
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # Whitelisted app
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
