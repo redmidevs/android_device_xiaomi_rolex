@@ -2154,18 +2154,20 @@ vendor/lib/libhdr_tm.so|da11f5eebeb16eba5cad910840224dabeacf34d3
 vendor/lib64/libhdr_tm.so|516358f18c32e884237449e5b93ba6868e21938c
 
 # Graphics (SDM) - from marmite - OPM5.171019.017
--vendor/lib/libsdm-disp-vndapis.so|41d866c7f7297b02a7d63bf499fa7ea21f422eca
--vendor/lib64/libsdm-disp-vndapis.so|51e2bc8715992e4b1edc9b6da00d7736ea81e449
-vendor/lib/libscalar.so|af7161c0a4a941eb133f82fffde21d5ed79e1b2d
-vendor/lib/libsdm-color.so|97293223d9e0cc7387515a5090022d177d3821de
-vendor/lib/libsdm-diag.so|c33bdf9a0a4aa9f0385f3d6772b37fd9034fa169
-vendor/lib/libsdmextension.so|75b082c542b1c9e3d31a5f155a834b06b18a7588
-vendor/lib/libtinyxml2_1.so|75c2e17a4677bcb21d1ac1ed411b92820fdfa299
-vendor/lib64/libscalar.so|778da7ece21c97b79e8486754f60e1cf7ebe11db
-vendor/lib64/libsdm-color.so|f6b415575c02a049362abcebf0ba5bc0b650cd2b
-vendor/lib64/libsdm-diag.so|b0578da9de5482f00201615a566e406de867865f
-vendor/lib64/libsdmextension.so|3c904206ebffde26434f335f786c7ed70c8e5406
-vendor/lib64/libtinyxml2_1.so|c9624690a608cb858888d9461b97d40f6e54cb6e
+-vendor/lib/libsdm-disp-vndapis.so|e23fea8088b9169382812ef2ca21eaee81525de2
+-vendor/lib64/libsdm-disp-vndapis.so|43b8897a7b96f8b82b839404e79c98f961569e0c
+lib/libsdm-disp-apis.so|1607f187c911cb6b296203fd613f73163339bbb1
+lib64/libsdm-disp-apis.so|b038141caecc116eea681497bcbeba208572e48d
+vendor/lib/libscalar.so|ec3eac6b3f7d028647d8ff8d5763641694b08a19
+vendor/lib/libsdm-color.so|06541b289de8b098dea82522f9e2ec79032f92b7
+vendor/lib/libsdm-diag.so|c39bf51390975615ddaaaba7867fc1546a49d60e
+vendor/lib/libsdmextension.so|f8597eddcdb953317625efeca36d35b2f9e41323
+vendor/lib/libtinyxml2_1.so|410ef0b073d6930caf3279cba17c1b9301fcbbe4
+vendor/lib64/libscalar.so|304b152dabbc03bd99b1f81adadb0835fd242f51
+vendor/lib64/libsdm-color.so|b9fa2cd18220c5f576d34c1c039776e20eb760f4
+vendor/lib64/libsdm-diag.so|90f2b9277824ea9acd4769ca46052dac9570cd5b
+vendor/lib64/libsdmextension.so|f2f170f2d65bb22c07594ac4d08ae8b8357b034e
+vendor/lib64/libtinyxml2_1.so|1cf417716eca9616f5e20b34855862d07a33e8bc
 
 # Graphics (Vulkan) - from marmite - OPM5.171019.017
 vendor/lib/hw/vulkan.msm8937.so|51a1f4b341ca2ee428a46b3d7aafff147c3fe035
@@ -2278,11 +2280,9 @@ vendor/lib64/libperipheral_client.so|d6db5efd4667ae3e831403f4e313fa38a5ae7bc8
 # Postprocessing - from tissot - OPR1.170623.026
 etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
 framework/com.qti.snapdragon.sdk.display.jar|d8878b2b14a63776c76de275cfcdbbd1168c6ad9
-lib/libsd_sdk_display.so:vendor/lib/libsd_sdk_display.so|e1f9b186e1b97f37298dc6991e5fd7626c22f532
 -lib/vendor.display.color@1.0.so|6f87eca02e8aa72995f0aad8e3cf71975d4013f3
 lib/vendor.display.postproc@1.0.so|678c4d5324f1f7c267e0c9c53eb11b40d2a73d4b
 lib/vendor.qti.hardware.qdutils_disp@1.0.so|36afbf62738ecc56672e3ae5cd839ec32bfe5d44
-lib64/libsd_sdk_display.so:vendor/lib64/libsd_sdk_display.so|9449e3ddfea84fb94447cb3f95d324cff216491c
 -lib64/vendor.display.color@1.0.so|80bcb5adf63d2f286ffc7408f47a113f9eb73820
 lib64/vendor.display.postproc@1.0.so|9d010d28b70d09654af526b143da4a79d401c1df
 lib64/vendor.qti.hardware.qdutils_disp@1.0.so|552894a63722a14ea963023eea50d1b066e2dfae
