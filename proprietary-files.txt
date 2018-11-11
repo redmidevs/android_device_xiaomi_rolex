@@ -2188,10 +2188,10 @@ vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 vendor/lib/hw/keystore.msm8937.so|bbd9ed278c2031bc8d2fe88be41b111f189dcecb
 vendor/lib64/hw/keystore.msm8937.so|eb4d65e03cbfffbbe134c7a140b1ef1677c630e7
 
-# Listen - from TA-1000 - OPR1.170623.026
-vendor/lib/hw/sound_trigger.primary.msm8937.so|1d9089682c2004757247c6ff4b9c096d1c4fda1e
-vendor/lib/libadpcmdec.so|ddd8d6936a718349aa2692edd39340c5f02d020f
-vendor/lib/libsmwrapper.so|6b705c8959c92a2f0d0420dbe79f80715357777f
+# Listen - from riva - 8.11.6 (OPM1.171019.026)
+vendor/lib/hw/sound_trigger.primary.msm8937.so|5cefa65566d5c36e4518180f515e87fc18144763
+vendor/lib/libadpcmdec.so|f535598d22b385456be46db80059755c19db5b7c
+vendor/lib/libsmwrapper.so|67b3ac79dbe324f1a6525da01a9b34ccd03a0665
 
 # Media - from tissot - OPR1.170623.026
 vendor/lib/libAlacSwDec.so|eabd64c99d7da57bd6efdd636c886ee5119f0850
