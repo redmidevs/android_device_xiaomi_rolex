@@ -1,38 +1,37 @@
-# Audio ACDB
-etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTPBluetooth_cal.acdb
-etc/acdbdata/MTP/MTP_General_cal.acdb:vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-etc/acdbdata/MTP/MTP_Global_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-etc/acdbdata/MTP/MTP_Handset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
-etc/acdbdata/MTP/MTP_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Bluetooth_cal.acdb
-etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_General_cal.acdb:vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_General_cal.acdb
-etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Global_cal.acdb:vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Global_cal.acdb
-etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Handset_cal.acdb:vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Handset_cal.acdb
-etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Hdmi_cal.acdb
-etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb:vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb
-etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb
+# Audio ACDB - from riva - 8.11.6 (OPM1.171019.026)
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|e9f9364d38b3b79b88ec8eb4a7f69e28a701abb6
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|62bfe3e1f2642b59b837fbf7b25ec91b7e936d0d
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|8b4b4c7e8e76c5bdfcd0ab9f88f58e9b43121b62
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|aa9a48059edaf94d2cb0dd85820c9c21880b8d07
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|1dbeff01107db11815fb095fd16dd373fc2c68aa
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|11251bc0849a26afaca17390da41a7cea3a3b305
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|847116ad4ee59e8b275cbb5f3fdcc89d495258de
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|2a97600702551264352ef4b2f57e491fac36b074
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|18671f8b1783b765243898189a79fdd40135d4f9
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|f6c7759c59380540b308d5ae6016177698c2eeec
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|acc79c4075d7aae1e393bbdbd6d7af5c25c06c26
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|97e5ac540ec71ea9a84009d5646efe22b8cff992
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|a000b6a0c7f21b0e323153ee4db13f5c7f7a8b8f
+vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Bluetooth_cal.acdb|f4947532182032b81bf0ea86e941ed1dba2cb644
+vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_General_cal.acdb|0358ed06a21e8736fac1fcd95a522485f1ebbe2c
+vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Global_cal.acdb|144bd9b5c6eac71428db21fbcf45d660d92a33e5
+vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Handset_cal.acdb|69d6ca76a4fa8e0563a057a729dc0e463e57ae02
+vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Hdmi_cal.acdb|ed31070191d2b1dd13c908f594ed492cfee077b0
+vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb|92df62b7b68370b1f85765a54da0c7b8152d4696
+vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb|09bb9945792e55de2e9abdc416f1b27d759fcc69
 
-# ADSP - from tissot - OPR1.170623.026
-vendor/bin/adsprpcd|35b15f3197e193f742cef0c9f51bbfba9f7e27ad
-vendor/lib/libadsprpc.so|903160c2bf36fd3155720048c3ae2ab5e7fea7b4
-vendor/lib/libadsp_default_listener.so|3b56c2d00bef6585b8de11ba5afbec3772456d2d
-vendor/lib/libfastcvadsp_stub.so|6197157dec6a29931f3af47b1ade006a295d05f5
-vendor/lib/libfastcvopt.so|1eae508500eb3e8bb3e97617a196d054d9d4f11c
-vendor/lib64/libadsprpc.so|88a4f07391e70f9b83a0aae90d087afbe64ecfa5
-vendor/lib64/libadsp_default_listener.so|7ae782755ddc945edb22ae11e964e0118a3b01a9
-vendor/lib64/libfastcvadsp_stub.so|3d175f68145aa59aecd8457d608df15a5156897e
-vendor/lib64/libfastcvopt.so|5c0c7331eb2836ed1791cdefaef20cb66df02cb5
+# ADSP - from riva - 8.11.6 (OPM1.171019.026)
+vendor/bin/adsprpcd|edaaaa249ab22de6fba8bf07d677d060a143218a
+vendor/lib/libadsprpc.so|26c1ec5401e3219c2dff28cb9bfa8cdf5a1868d3
+vendor/lib/libadsp_default_listener.so|1f6a768235d55446be7b865b950b6589ac487c97
+vendor/lib/libfastcvadsp_stub.so|d3c250fbd82c75667757a1b08949279474a27e1d
+vendor/lib/libfastcvopt.so|c091499599e1d0b646bc883a2c7dc8e10a5e6403
+vendor/lib64/libadsprpc.so|189d824589e8c1d74a10df8cf66fe5056db7e682
+vendor/lib64/libadsp_default_listener.so|686134d7c74a39eb26bc80c4598e61596e9e0765
+vendor/lib64/libfastcvadsp_stub.so|d28fe888b94579428d368f3adbadc59febc280b0
+vendor/lib64/libfastcvopt.so|72cb12bc7d9b3755875baa2f3a9a0bbaf763b2b8
 
-# ADSP modules - from tissot - OPR1.170623.026
+# ADSP modules - from riva - 8.11.6 (OPM1.171019.026)
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|5c82ad9cfe3f30105d899e2a4e90cc7566f81252
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|3e9c52069ff07e50191d3b3afb33b30409241ab6
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
@@ -40,43 +39,41 @@ vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
 vendor/lib/rfsa/adsp/libexternal_dog_skel.so|02b69c54437fb5a6f7ad88c3f58e7c4adfea9ede
 vendor/lib/rfsa/adsp/libfastcvadsp.so|9818625bfa018f517e32a8f4a1e7fb4b255e5049
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb4f7
-vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
 
 # Audio Dolby libraries
 vendor/lib/libhwdaphal.so
 vendor/lib64/libhwdaphal.so
 
-# Audio libraries - from tissot - OPR1.170623.026
+# Audio libraries - from riva - 8.11.6 (OPM1.171019.026)
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
-framework/audiosphere.jar|e12a3ee72672b82dffc9a5675d0c30ddf0328807
-vendor/lib/libacdb-fts.so|432041db714bfaafb4dd12ff5dadf832fe322785
-vendor/lib/libacdbloader.so|9c6ebfaf00e7dddf9e5f156dd6aaf0d616ad683e
-vendor/lib/libacdbrtac.so|8186bce33a5fbf79a11163c29b1669e85f9f1f84
-vendor/lib/libadiertac.so|cd008e30ad53d375d56c843c02e10717198ac4bf
-vendor/lib/libadm.so|5a02d7fd358eb488460ddb323990091e41e0822e
-vendor/lib/libaudcal.so|17c572176aaa38dcc1989dc6f8e6d554856e8bdb
-vendor/lib/libaudioalsa.so|a0170e763a7875f06de42ee90b887be6a9bb192a
-vendor/lib/libmdsprpc.so|c1bf9d1c2dee28c6fdee999acb9b72859d28416b
-vendor/lib/libqtigef.so|50f3a6fa607a9e4a525d05a4852aaf091c79d2ac
-vendor/lib/soundfx/libasphere.so|ddc5de6df568137a728c75203dc65db688a0903e
-vendor/lib/soundfx/libqcbassboost.so|cf029cdd42aa2439c7cda0d0c2acfc8de6ef732d
-vendor/lib/soundfx/libqcreverb.so|bd74bc0d62d835dcf3cd90521a532d27259541df
-vendor/lib/soundfx/libqcvirt.so|43cf84b66ccee38ae21910e502aa8c72731ff475
-vendor/lib/soundfx/libshoebox.so|cf17c5d4e98bcc2c7e3929a4fc297ed6ab7bedf2
-vendor/lib64/libacdb-fts.so|f7ff3f4d87c2791a11eee69e328a1beb33256299
-vendor/lib64/libacdbloader.so|0beeac377de2d275cf94e86d30a99163d9e8b527
-vendor/lib64/libacdbrtac.so|e351b36a4f14dc6b6626e6dca2bfc0915e68ccc2
-vendor/lib64/libadiertac.so|b145d356dd4eeed3243f394ea53b3f7b8e3e2bd7
-vendor/lib64/libaudcal.so|b14a42b8eb0fc8ec8f24c1375c622f9cbad60dbc
-vendor/lib64/libaudioalsa.so|e0c80f38802cfd6cc74352a108040ff5f165614b
-vendor/lib64/libmdsprpc.so|21d2e79900608d7dc7b3d3c12e405fc576c3ff0c
-vendor/lib64/libqtigef.so|63a415a14489f2a45315038a45f8e0f4fe7efa2c
-vendor/lib64/soundfx/libasphere.so|fd609c3228f55e9172154735fab9ba742a8d530a
-vendor/lib64/soundfx/libqcbassboost.so|280663da3238288914ecd028ce324fc98d084d8c
-vendor/lib64/soundfx/libqcreverb.so|cbbcba339a8ad9d769bf1c89cff3c2c1a5772563
-vendor/lib64/soundfx/libqcvirt.so|6d8720c7adc40c888509cd0c1e8942fcde161059
-vendor/lib64/soundfx/libshoebox.so|72f230e368045ff6b7db529d3b3e534a6723d7ec
+framework/audiosphere.jar|39023ba058279339921914457d76b9b3e4e48675
+vendor/lib/libacdb-fts.so|35aa4b887bf73dc995156c6ebe35e40bf4d996e5
+vendor/lib/libacdbloader.so|a068e456b4bd9ecc7b965d4c9923907cd87a1384
+vendor/lib/libacdbrtac.so|12af020a068a61231c97102d3e019c30800971b4
+vendor/lib/libadiertac.so|51e0e33dee9f8cb888d991402c66bc5daf3ab03a
+vendor/lib/libadm.so|9d7fa54689e7ce1b3191a448c1063360cbc68c40
+vendor/lib/libaudcal.so|b0b763795c8b6b7eda674152ea80b5d3c8cd3ea9
+vendor/lib/libaudioalsa.so|502c65fae713aa1adb6a2c96d2c1e35169169e8f
+vendor/lib/libmdsprpc.so|bea980471514161e689d2c1600707f0eb70c8215
+vendor/lib/libqtigef.so|e5162f66bb04beedecd7e3a3a881fa45c002742e
+vendor/lib/soundfx/libasphere.so|b6ffe13f029b41a44f0cf72229a040d607ccb7f4
+vendor/lib/soundfx/libqcbassboost.so|d1fdf93eb1b5e5e6d838ab97a328376abb592ab9
+vendor/lib/soundfx/libqcreverb.so|df8f01fc055de6c0f717c5a0c38ead29339285b2
+vendor/lib/soundfx/libqcvirt.so|eb1949de71c8c95301156568fca256302c608f52
+vendor/lib/soundfx/libshoebox.so|538dc7ed2d3066ca956a1722e147808f96c0224b
+vendor/lib64/libacdb-fts.so|5f285fc53249109c7f87354111655eb19921b4ff
+vendor/lib64/libacdbloader.so|c403a6ce05d5e5866abd3212859f9c432ef87e66
+vendor/lib64/libacdbrtac.so|bcc6b956cb7cfa29df43f51d7eb68a45298dc1f6
+vendor/lib64/libadiertac.so|6aa85cbb872780bfee3a41971270fb90e07810d1
+vendor/lib64/libaudcal.so|b1d6732b6068ba961aeaacb9b9624dfa1b4c30ca
+vendor/lib64/libaudioalsa.so|ec1afaf77d82033bf3e603ff54933e7d022633b3
+vendor/lib64/libmdsprpc.so|c14d198a5fa2efc08d8a6abe3bcf0448182ffe0c
+vendor/lib64/libqtigef.so|fbdc2ec8a5a32e1267163b75134514654c786b67
+vendor/lib64/soundfx/libasphere.so|9af4e1e5cfea9926f2c618d84d02318891171b11
+vendor/lib64/soundfx/libqcbassboost.so|1ea8e729935d676e41cf3ed7522bbd413a6018bb
+vendor/lib64/soundfx/libqcreverb.so|5a812200043afd13c9aae8f11e0751a2673bc4eb
+vendor/lib64/soundfx/libqcvirt.so|8c9ed961e620c4172ca9f371b109263e913b9fa7
+vendor/lib64/soundfx/libshoebox.so|cfc916d9a1ee617c248f784359df41a95d3b820a
 
 # Bluetooth - from tissot - OPM1.171019.026
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|6a1f31ef0b626ca5fd51400195743416949eb7b9
