@@ -62,6 +62,17 @@ extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
 
 "$MY_DIR"/setup-makefiles.sh
 
+# Define blobs path for the following hax
+BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+
 # Hax for camera configs
-CAMERA2_SENSOR_MODULES="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/vendor/lib/libmmcamera2_sensor_modules.so
+CAMERA2_SENSOR_MODULES=$BLOB_ROOT/vendor/lib/libmmcamera2_sensor_modules.so
 sed -i "s|/system/etc/camera/|/vendor/etc/camera/|g" "$CAMERA2_SENSOR_MODULES"
+
+# Hax for disable colorspace
+sed -i "s|EGL_KHR_gl_colorspace|DIS_ABL_ED_colorspace|g" $BLOB_ROOT/vendor/lib/egl/eglSubDriverAndroid.so
+sed -i "s|EGL_KHR_gl_colorspace|DIS_ABL_ED_colorspace|g" $BLOB_ROOT/vendor/lib/egl/eglsubAndroid.so
+sed -i "s|EGL_KHR_gl_colorspace|DIS_ABL_ED_colorspace|g" $BLOB_ROOT/vendor/lib/egl/libRBEGL_adreno.so
+sed -i "s|EGL_KHR_gl_colorspace|DIS_ABL_ED_colorspace|g" $BLOB_ROOT/vendor/lib64/egl/eglSubDriverAndroid.so
+sed -i "s|EGL_KHR_gl_colorspace|DIS_ABL_ED_colorspace|g" $BLOB_ROOT/vendor/lib64/egl/eglsubAndroid.so
+sed -i "s|EGL_KHR_gl_colorspace|DIS_ABL_ED_colorspace|g" $BLOB_ROOT/vendor/lib64/egl/libRBEGL_adreno.so

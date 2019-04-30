@@ -1,7 +1,9 @@
 VNDK_SP_LIBRARIES := \
     android.hardware.graphics.allocator@2.0 \
     android.hardware.graphics.common@1.0 \
+    android.hardware.graphics.common@1.1 \
     android.hardware.graphics.mapper@2.0 \
+    android.hardware.graphics.mapper@2.1 \
     android.hardware.renderscript@1.0 \
     android.hidl.memory@1.0 \
     libRSCpuRef \
@@ -24,8 +26,11 @@ VNDK_SP_LIBRARIES := \
     liblzma \
     libpng \
     libunwind \
+    libunwindstack \
     libutils \
-    libz
+    libz \
+    libutilscallstack \
+    libdexfile
 
 EXTRA_VENDOR_LIBRARIES := \
     android.hidl.base@1.0 \
@@ -34,10 +39,20 @@ EXTRA_VENDOR_LIBRARIES := \
     vendor.display.config@1.0 \
     vendor.qti.hardware.iop@1.0
 
+# FIXME: Generate INSTALL_IN_HW_SUBDIR automatically
+INSTALL_IN_HW_SUBDIR := android.hidl.memory@1.0-impl
 
 #-------------------------------------------------------------------------------
 # VNDK Modules
 #-------------------------------------------------------------------------------
+
+# Start from Android P, VNDK directory will always be versioned.
+ifdef PLATFORM_VNDK_VERSION
+VNDK_SP_DIR := vndk-sp-$(PLATFORM_VNDK_VERSION)
+else
+VNDK_SP_DIR := vndk-sp
+endif
+
 LOCAL_PATH := $(call my-dir)
 
 define define-vndk-lib
@@ -50,7 +65,7 @@ LOCAL_MULTILIB := first
 LOCAL_MODULE_TAGS := optional
 LOCAL_INSTALLED_MODULE_STEM := $1.so
 LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := $3
+LOCAL_MODULE_RELATIVE_PATH := $3$(if $(filter $1,$(INSTALL_IN_HW_SUBDIR)),/hw)
 LOCAL_VENDOR_MODULE := $4
 include $$(BUILD_PREBUILT)
 
@@ -65,7 +80,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_INSTALLED_MODULE_STEM := $1.so
 LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_RELATIVE_PATH := $3
+LOCAL_MODULE_RELATIVE_PATH := $3$(if $(filter $1,$(INSTALL_IN_HW_SUBDIR)),/hw)
 LOCAL_VENDOR_MODULE := $4
 include $$(BUILD_PREBUILT)
 endif  # TARGET_TRANSLATE_2ND_ARCH is not true
@@ -73,12 +88,13 @@ endif  # TARGET_2ND_ARCH is not empty
 endef
 
 $(foreach lib,$(VNDK_SP_LIBRARIES),\
-    $(eval $(call define-vndk-lib,$(lib),vndk-sp-gen,vndk-sp,)))
+    $(eval $(call define-vndk-lib,$(lib),vndk-sp-gen,$(VNDK_SP_DIR),)))
 $(foreach lib,$(VNDK_SP_EXT_LIBRARIES),\
-    $(eval $(call define-vndk-lib,$(lib),vndk-sp-ext-gen,vndk-sp,true)))
+    $(eval $(call define-vndk-lib,$(lib),vndk-sp-ext-gen,$(VNDK_SP_DIR),true)))
 $(foreach lib,$(EXTRA_VENDOR_LIBRARIES),\
     $(eval $(call define-vndk-lib,$(lib),vndk-ext-gen,,true)))
 
+VNDK_SP_DIR :=
 
 #-------------------------------------------------------------------------------
 # Phony Package
@@ -92,3 +108,9 @@ LOCAL_REQUIRED_MODULES := \
     $(addsuffix .vndk-sp-ext-gen,$(VNDK_SP_EXT_LIBRARIES)) \
     $(addsuffix .vndk-ext-gen,$(EXTRA_VENDOR_LIBRARIES))
 include $(BUILD_PHONY_PACKAGE)
+
+# Unset variables
+VNDK_SP_LIBRARIES :=
+VNDK_SP_EXT_LIBRARIES :=
+EXTRA_VENDOR_LIBRARIES :=
+INSTALL_IN_HW_SUBDIR :=

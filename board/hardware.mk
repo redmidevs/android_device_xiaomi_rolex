@@ -1,3 +1,2 @@
 # LineageOS Hardware
-BOARD_HARDWARE_CLASS += \
-    device/xiaomi/rolex/lineagehw
+JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java

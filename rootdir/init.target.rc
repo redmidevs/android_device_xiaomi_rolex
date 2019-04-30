@@ -50,6 +50,8 @@ on fs
     chown system system /proc/gesture/onoff 
     chmod 660 /proc/gesture/onoff 
 
+    setprop sys.usb.ffs.aio_compat 1
+
 on post-fs-data
     mkdir /persist/data/sfs 0700 system system
     mkdir /persist/data/tz 0700 system system
@@ -155,7 +157,6 @@ on charger
     load_all_props
     setprop sys.usb.configfs 0
     setprop persist.sys.usb.config mass_storage
-    start hvdcp_opti
 
 service hbtp /vendor/bin/hbtp_daemon
     class main
@@ -172,8 +173,3 @@ service per_mgr /vendor/bin/pm-service
     class core
     user system
     group system net_raw
-
-service hvdcp_opti /vendor/bin/hvdcp_opti
-    class main
-    user root
-    group root
